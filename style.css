@@ -1,0 +1,305 @@
+body {
+	font-family: calibri;
+	background: #b7e0ff;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+#tete {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 6%;
+	font-weight: bold;
+	text-align: center;
+	font-size: 32px;
+	text-shadow: 3px 2px black;
+	border-bottom: 2px solid black;
+	color: white;
+	background: #326081;
+}
+
+#pied {
+	position: fixed;
+	top: 94%;
+	left: 0%;
+	width: 100%;
+	height: 6%;
+	text-align: center;
+	font-size: 24px;
+	border-top: 2px solid black;
+	color: lightgray;
+	background: #326081;
+}
+
+#connexion {
+	position: fixed;
+	left: 40%;
+	width: 20%;
+	top: 16%;
+	border: 2px solid #326081;
+	border-radius: 10px;
+	padding: 10px;
+	background: white;
+	text-align: center;
+}
+
+#navigation {
+	position: fixed;
+	left: 0%;
+	width: 25%;
+	top: 9%;
+	height: 81%;
+}
+
+#mininavigation {
+	position: fixed;
+	top: 68%;
+	left: 28%;
+	width: 45%;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 20px;
+	background: white;
+	text-align: center;
+}
+
+#mininavigation button {
+	font-weight: bold;
+	width: 10%;
+	padding: 10px;
+	margin-left: 1%;
+}
+
+
+#page {
+	position: fixed;
+	top: 12%;
+	left: 28%;
+	width: 45%;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 20px;
+	text-align: center;
+	background: white;
+}
+
+#page label {
+	font-size: 22px;
+	margin-top: 20px;
+}
+
+.menu {
+	position: relative;
+	width: 70%;
+	padding: 6%;
+	margin-top: 15%;
+	border-top: 3px solid black;
+	border-right: 3px solid black;
+	border-radius: 0px 20px 20px 0px;
+	color: white;
+	font-size: 26px;
+	text-align: right;
+	text-decoration: none;
+	background: #326081;
+}
+
+.menu:hover {
+	transition: 0.3s;
+	width: 80%;
+	border-top: 3px solid #326081;
+	border-right: 3px solid #326081;
+	color: #326081;
+	font-weight: bold;
+	background: white;
+}
+
+.profilnom {
+	font-size: 22px;
+	font-weight: bold;
+	color: #326081;
+	text-shadow: 3px 2px lightgray;
+}
+
+.msg {
+	position: fixed;
+	left: 40%;
+	width: 20%;
+	top: 60%;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	font-weight: bold;
+	background: white;
+	text-align: center;
+}
+
+#logo {
+	position: fixed;
+	left: 79%;
+	width: 16%;
+	top: 7%;
+}
+
+.profil {
+	position: fixed;
+	left: 79%;
+	width: 17%;
+	top: 35%;
+	border-top: 4px solid black;
+	border-right: 4px solid black;
+	text-align: center;
+	background: white;
+}
+
+#admin {
+	position: fixed;
+	left: 79%;
+	width: 17%;
+	top: 64%;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	font-weight: bold;
+	background: white;
+	text-align: center;
+}
+
+.echec {
+	border: 2px solid red;
+	background: #e87285;
+}
+
+.reussi {
+	background: #9fdb7a;
+}
+
+
+.champ {
+	width: 100px;
+}
+
+#deconnexion {
+	margin: 4px;
+	padding: 8px;
+	color: #813232;
+	font-weight: bold;
+	border: 2px solid #813232;
+	border-radius: 4px;
+	background: #ffb7b7;
+}
+
+#unboutonvert {
+	margin: 4px;
+	padding: 8px;
+	color: #328137;
+	font-weight: bold;
+	border: 2px solid #328137;
+	border-radius: 4px;
+	background: #b7ffbc;
+}
+
+#deconnexion:hover {
+	transition: 0.3s;
+	background: #813232;
+	color: white;
+}
+
+#unboutonvert:hover {
+	transition: 0.3s;
+	background: #328137;
+	color: white;
+}
+
+
+
+
+hr {
+	border-top: 2px solid black;
+}
+
+select {
+	margin: 4px;
+	padding: 8px;
+}
+
+button {
+	margin: 4px;
+	padding: 8px;
+	color: #326081;
+	font-weight: bold;
+	border: 2px solid #326081;
+	border-radius: 4px;
+	background: #b7e0ff;
+}
+
+button:hover {
+	transition: 0.3s;
+	color: white;
+	background: #326081;
+}
+
+input[type=text]:focus {
+	border: 2px solid gray;
+}
+
+input[type=password]:focus {
+	border: 2px solid gray;
+}
+
+input[type=submit] {
+	margin: 4px;
+	padding: 8px;
+	color: #326081;
+	font-weight: bold;
+	border: 2px solid #326081;
+	border-radius: 4px;
+	background: #b7e0ff;
+}
+
+input[type=submit]:hover {
+	transition: 0.3s;
+	color: white;
+	background: #326081;
+}
+
+
+table {
+  	font-size: 16px;
+  	width: 100%;
+}
+
+th {
+  text-align: center;
+  padding: 6px 60px 6px 60px;
+  color: white;
+  background: #326081;
+  font-style: normal;
+}
+
+tr {
+  text-align: center;
+  background: #d7eeff;
+}
+
+/* Colonne 1/2 fond en blanc (w3school) */
+tr:nth-child(even) {
+  background: white;
+}
+
+tr:hover {
+  color: white;
+  padding: 80px;
+  background: #326081;
+}
+
+td {
+  padding: 6px;
+}
